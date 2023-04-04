@@ -21,6 +21,7 @@ In this part, we train a patient classifier using the scalograms generated in Pa
 The classifier used for this part is a fully connected neural network (FC NN), which is trained on the feature vectors of the training set and validated on the validation set. The accuracy of the system is evaluated on the test set, and it is found that the system only made an incorrect prediction for one patient out of 32 patients. The accuracy of the system is 96.88%, where the one incorrect prediction was for a patient whose ground truth label was ARR, but the system predicted CHF.
 In most cases, the system correctly predicts the label of the patient with over 99% confidence, indicating high accuracy in the classification task.
 
+
 Conclusion
 
 This project demonstrates the effectiveness of using wavelet transform and CNN to classify ECG signals. The use of multiple scalogram lengths provides a rich representation of the signal, which can significantly improve the accuracy of the classification task. The FC NN classifier trained on the feature vectors achieved high accuracy in the patient classification task, with only one incorrect prediction out of 32 patients. This project can be useful in diagnosing cardiac conditions and improving patient care.
